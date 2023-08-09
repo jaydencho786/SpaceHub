@@ -1,0 +1,21 @@
+-- Script named HelloScript in workspace
+local function printHello()
+	print ("Hello world!")
+end
+
+printHello()
+
+-- Command line
+local targetScript = workspace.HelloScript
+print (targetScript.Source)local Player = game:GetService("Players").LocalPlayer
+           
+                        repeat game:etService("RunService").Heartbeat:wait()
+                               game:GetService("VirtualInputManager"):SendMouseWheelEvent("0", "0", true, game)
+                                    game:GetService("RunService").Heartbeat:wait()
+                                    game:GetService("VirtualInputManager"):SendMouseWheelEvent("0", "0", false, game)
+                                    game:GetService("RunService").Heartbeat:wait()
+                        until SpeedGlitch == false
+                    end
+                end
+            end)
+
